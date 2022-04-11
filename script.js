@@ -48,46 +48,46 @@ loGuardoTodo.push("euralio");
 console.log(loGuardoTodo[loGuardoTodo.length - 1]);
 
 //3. Objetos.
-const coche = {
+const Coche = {
   marca: "Ford",
   modelo: "Mustang",
   matricula: "2244 HKX",
 };
 
-const casa = {
+const Casa = {
   codPostal: 46015,
   calle: "mi calle",
   portal: 12,
   piso: 3,
 };
 
-const fullStackDeveloper = {
+const FullStackDeveloper = {
   lenguajes: ["js", "php"],
   proyecto: ["Mi Pagina personal", "encontrar curro", "no morir de hambre"],
 };
 
-const perro = {
+const Perro = {
   nombre: "Torticulis",
   raza: "boxer",
   color: "marron caca",
   edad: 5,
 };
 
-const noticia = {
+const Noticia = {
   titular: "COVID CHAO",
   cuerpo:
     "loremlorem ipsum dasdasdadasdasdasdfaf afsasdas adasdasdas adasdasdas",
 };
 
-const persona = {
+const Persona = {
   nombre: "David",
   apellidos: "Ubeda",
   edad: 38,
 };
 
-console.log(persona.nombre);
+console.log(Persona.nombre);
 
-console.log(fullStackDeveloper.lenguajes[0]);
+console.log(FullStackDeveloper.lenguajes[0]);
 
 const Portatil = {
   marca: "MSI",
@@ -123,6 +123,12 @@ const impresora = {
 };
 const nivelesTinta = impresora.tinta;
 console.log(nivelesTinta);
+
+const Movil = {
+  especificaciones: ["Quad Core", "2gb Ram", "SnapDragon767"],
+};
+const especificaciones = Movil.especificaciones;
+console.log(especificaciones);
 
 Portatil.marca = "asus";
 console.log(Portatil);
